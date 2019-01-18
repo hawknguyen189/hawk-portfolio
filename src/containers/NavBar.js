@@ -2,11 +2,12 @@ import React from 'react';
 import BrandName from "../components/BrandName/BrandName"
 import Navigation from "../components/Navigation/Navigation"
 import CollapseButton from "../components/Navigation/CollapseButton"
+const style={backgroundColor: "rgba(21,31,33,0.5)"};
 
 export class NavBar extends React.Component {
   render(){
     return (
-      <nav className="navbar navbar-expand-lg navbar-dark text-white bg-transparent fixed-top">
+      <nav style={style} className="navbar navbar-expand-lg navbar-dark text-white fixed-top border-bottom">
         <BrandName/>
         <CollapseButton/>
         <Navigation/>
