@@ -17,7 +17,7 @@ class WelcomeText extends React.Component {
               "It does not matter how slowly you go as long as you do not stop." – Confucius
             </h4>
           </div>
-          <div className="d-flex col-sm-6 text-white rounded align-middle flex-column align-items-center justify-content-center" style={style}>
+          <div className="py-4 d-flex col-sm-6 text-white rounded align-middle flex-column align-items-center justify-content-center" style={style}>
             <h3>Welcome to my Workshop</h3>
             <h5>
               Do you get what you're looking for here? Are you satisfied with my works?

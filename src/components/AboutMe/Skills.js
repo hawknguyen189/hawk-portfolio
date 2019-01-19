@@ -1,11 +1,11 @@
 import React from 'react';
 import "./Skills.css";
-import d3Logo from "./d3-white.png";
+import reactRouter from "./react-router-logo.png";
 
 export class Skills extends React.Component{
   render(){
     return (
-      <div className="container-fluid bg-white text-center">
+      <div className="container-fluid bg-white text-center py-5">
         <h3>
           Technological Skills
         </h3>
@@ -94,7 +94,7 @@ export class Skills extends React.Component{
               <div className="container pl-0 pr-1">
                 <div className="row">
                   <div className="col-sm skill-cell rounded">
-                    <h6>Webpack <i class="fas fa-cube"></i></h6>
+                    <h6>React Router <i class="fas fa-route"></i></h6>
                   </div>
                 </div>
               </div>
@@ -132,7 +132,7 @@ export class Skills extends React.Component{
               <div className="container pl-0 pr-1">
                 <div className="row">
                   <div className="col-sm skill-cell rounded">
-                    <h6>D3 <img className="mb-1" src={d3Logo} alt="d3" width="15" height="15"/></h6>
+                    <h6>Webpack <i class="fas fa-cube"></i></h6>
                   </div>
                 </div>
               </div>
