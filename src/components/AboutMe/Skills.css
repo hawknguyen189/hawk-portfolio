@@ -1,0 +1,15 @@
+.dominating-color {
+  color: #d5264a; }
+
+.skill-cell {
+  background-color: #d5264a;
+  height: 50px; }
+
+.row .rounded {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+/*# sourceMappingURL=Skills.css.map */

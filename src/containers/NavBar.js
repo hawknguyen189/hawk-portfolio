@@ -1,5 +1,5 @@
 import React from 'react';
-import BrandName from "../components/BrandName/BrandName"
+import BrandName from "../components/Navigation/BrandName"
 import Navigation from "../components/Navigation/Navigation"
 import CollapseButton from "../components/Navigation/CollapseButton"
 const style={backgroundColor: "rgba(21,31,33,0.5)"};

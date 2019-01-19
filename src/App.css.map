@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACA,iBAAiB;EACf,KAAK,EAFY,OAAO",
+"sources": ["sass/helpers/_variables.scss"],
+"names": [],
+"file": "App.css"
+}

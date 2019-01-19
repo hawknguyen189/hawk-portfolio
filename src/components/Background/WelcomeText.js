@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from "../BrandName/logo.png"
+import logo from "../Navigation/logo.png"
 
 const style = {backgroundColor: "rgba(0, 0, 45, 0.4)"};
 class WelcomeText extends React.Component {
@@ -8,7 +8,7 @@ class WelcomeText extends React.Component {
       <div className="container text-center">
         <div className="row">
           <div className="col-sm-6 text-white d-none d-sm-block ">
-            <a href="#mainHeader" className="navbar-brand d-flex justify-content-center align-items-center">
+            <a href="index.html" className="navbar-brand d-flex justify-content-center align-items-center">
               <img src={logo} alt="Find Hawk logo" width="60" height="60"/>
               <h3 className="pl-2 dominating-color">FindHawk.ca</h3>
             </a>
