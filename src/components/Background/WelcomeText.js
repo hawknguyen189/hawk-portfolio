@@ -10,7 +10,7 @@ class WelcomeText extends React.Component {
           <div className="col-sm-6 text-white d-none d-sm-block ">
             <a href="#mainHeader" className="navbar-brand d-flex justify-content-center align-items-center">
               <img src={logo} alt="Find Hawk logo" width="60" height="60"/>
-              <h3 className="pl-2">FindHawk.ca</h3>
+              <h3 className="pl-2 dominating-color">FindHawk.ca</h3>
             </a>
             <h3 className="text-sm-left">Light Tomorrow With Today</h3>
             <h4 className="text-sm-left">
@@ -22,7 +22,7 @@ class WelcomeText extends React.Component {
             <h5>
               Do you get what you're looking for here? Are you satisfied with my works?
               <br/>
-              If not, please come back after few days. I regularly update my new projects
+              If not, please come back after few days. I do regularly update my new projects
               every 2 or 3 days.
             </h5>
             <button className="btn btn-info bg-transparent">Get in touch</button>
