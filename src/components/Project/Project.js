@@ -8,7 +8,7 @@ export class Project extends React.Component{
           <div className="card-header">
             {this.props.websiteName}
           </div>
-          <img src={this.props.websiteImage} alt="Website Image" className="card-img-top"/>
+          <img src={require("../../images/"+ this.props.websiteImage + ".png")} alt={this.props.websiteName} className="card-img-top"/>
           <div className="card-body">
             <p className="class-text">
               {this.props.websiteContent}

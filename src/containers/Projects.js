@@ -1,7 +1,7 @@
 import React from "react";
 import {Project} from "../components/Project/Project";
 import websiteImage from "../images/coming-soon.png";
-
+import ProjectCollection from "../components/Project/ProjectCollection";
 export class Projects extends React.Component{
   render (){
     return (
@@ -15,33 +15,33 @@ export class Projects extends React.Component{
               Some of my latest projects to be show here
             </p>
           </div>
-          <div className="row">
-            <Project websiteName="Coming soon..." websiteImage={websiteImage}
-              websiteContent="Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Integer posuere erat a ante."/>
-            <Project websiteName="Coming soon..." websiteImage={websiteImage}
-              websiteContent="Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Integer posuere erat a ante."/>
-            <Project websiteName="Coming soon..." websiteImage={websiteImage}
-              websiteContent="Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Integer posuere erat a ante."/>
-            <Project websiteName="Coming soon..." websiteImage={websiteImage}
-              websiteContent="Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Integer posuere erat a ante."/>
+          <div className="row py-5">
+            <Project websiteName={ProjectCollection["comingSoon"]["websiteName"]}
+              websiteImage={ProjectCollection["comingSoon"]["websiteImage"]}
+              websiteContent={ProjectCollection["comingSoon"]["websiteContent"]}/>
+            <Project websiteName={ProjectCollection["comingSoon"]["websiteName"]}
+              websiteImage={ProjectCollection["comingSoon"]["websiteImage"]}
+              websiteContent={ProjectCollection["comingSoon"]["websiteContent"]}/>
+            <Project websiteName={ProjectCollection["comingSoon"]["websiteName"]}
+              websiteImage={ProjectCollection["comingSoon"]["websiteImage"]}
+              websiteContent={ProjectCollection["comingSoon"]["websiteContent"]}/>
+            <Project websiteName={ProjectCollection["comingSoon"]["websiteName"]}
+              websiteImage={ProjectCollection["comingSoon"]["websiteImage"]}
+              websiteContent={ProjectCollection["comingSoon"]["websiteContent"]}/>
           </div>
           <div className="row">
-            <Project websiteName="Coming soon..." websiteImage={websiteImage}
-              websiteContent="Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Integer posuere erat a ante."/>
-            <Project websiteName="Coming soon..." websiteImage={websiteImage}
-              websiteContent="Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Integer posuere erat a ante."/>
-            <Project websiteName="Coming soon..." websiteImage={websiteImage}
-              websiteContent="Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Integer posuere erat a ante."/>
-            <Project websiteName="Coming soon..." websiteImage={websiteImage}
-              websiteContent="Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Integer posuere erat a ante."/>
+            <Project websiteName={ProjectCollection["comingSoon"]["websiteName"]}
+              websiteImage={ProjectCollection["comingSoon"]["websiteImage"]}
+              websiteContent={ProjectCollection["comingSoon"]["websiteContent"]}/>
+            <Project websiteName={ProjectCollection["comingSoon"]["websiteName"]}
+              websiteImage={ProjectCollection["comingSoon"]["websiteImage"]}
+              websiteContent={ProjectCollection["comingSoon"]["websiteContent"]}/>
+            <Project websiteName={ProjectCollection["comingSoon"]["websiteName"]}
+              websiteImage={ProjectCollection["comingSoon"]["websiteImage"]}
+              websiteContent={ProjectCollection["comingSoon"]["websiteContent"]}/>
+            <Project websiteName={ProjectCollection["comingSoon"]["websiteName"]}
+              websiteImage={ProjectCollection["comingSoon"]["websiteImage"]}
+              websiteContent={ProjectCollection["comingSoon"]["websiteContent"]}/>
           </div>
         </div>
       </section>
