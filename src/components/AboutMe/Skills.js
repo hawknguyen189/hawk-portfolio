@@ -6,12 +6,14 @@ export class Skills extends React.Component{
   render(){
     return (
       <div className="container-fluid bg-white text-center py-5">
-        <h3>
-          Technological Skills
-        </h3>
-        <h5>
-          I always enjoy learning new technologies. Especially, those will make your company special.
-        </h5>
+        <div className="heading-text pb-5">
+          <h3>
+            Technological Skills
+          </h3>
+          <h5>
+            I always enjoy learning new technologies. Especially, those will make your company special.
+          </h5>
+        </div>
         <div className="container text-white">
           <div className="row mb-3">
             <div className="col-sm-4">

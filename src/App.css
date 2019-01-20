@@ -1,4 +1,7 @@
 .dominating-color {
   color: #d5264a; }
 
+html {
+  scroll-behavior: smooth; }
+
 /*# sourceMappingURL=App.css.map */
