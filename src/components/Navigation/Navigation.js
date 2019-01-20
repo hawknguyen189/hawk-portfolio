@@ -9,7 +9,7 @@ class Navigation extends React.Component{
             <a href="#aboutMe" className="nav-link">ABOUT ME</a>
           </li>
           <li className="nav-item">
-            <a href="#" className="nav-link">PROJECTS</a>
+            <a href="#projects" className="nav-link">PROJECTS</a>
           </li>
           <li className="nav-item">
             <a href="#" className="nav-link">CONNECT WITH ME</a>

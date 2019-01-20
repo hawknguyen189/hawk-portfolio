@@ -9,7 +9,7 @@ export class IntroduceMe extends React.Component {
         <div className="container">
           <div className="row">
             <div className="col-sm d-sm-flex align-items-center justify-content-center flex-sm-column text-sm-left">
-              <h3 className="text-sm-left align-self-start border-bottom border-secondary">
+              <h3 className="text-sm-left align-self-start border-bottom border-secondary pr-5">
                 Hi! I'm Hoc Nguyen.
               </h3>
               <br/>
