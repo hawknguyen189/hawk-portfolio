@@ -11,7 +11,7 @@ export class ConnectMe extends React.Component{
         <div className="container">
           <div className="row">
             <div className="col-sm d-sm-flex align-items-sm-left justify-content-center flex-sm-column">
-              <h3 className="border-bottom px-2">
+              <h3 className="align-self-start border-bottom px-2">
                 Connect with me:
               </h3>
               <p>

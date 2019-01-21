@@ -5,6 +5,8 @@ import {MainBackground} from "./containers/MainBackground"
 import {AboutMe} from "./containers/AboutMe"
 import {Projects} from "./containers/Projects"
 import {ConnectMe} from "./containers/ConnectMe"
+import {Testinomials} from "./containers/Testinomials"
+import {MyAdvantages} from "./containers/MyAdvantages"
 
 class App extends Component {
   render() {
@@ -14,6 +16,8 @@ class App extends Component {
         <MainBackground/>
         <AboutMe/>
         <Projects/>
+        <Testinomials/>
+        <MyAdvantages/>
         <ConnectMe/>
       </div>
     );
