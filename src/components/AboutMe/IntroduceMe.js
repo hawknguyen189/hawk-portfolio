@@ -1,6 +1,6 @@
 import React from 'react';
-import "./introduceme.css"
-import aboutMe from "./about-me.png"
+import "./introduceme.css";
+import aboutMe from "../../images/about-me.png";
 
 export class IntroduceMe extends React.Component {
   render(){
@@ -9,7 +9,7 @@ export class IntroduceMe extends React.Component {
         <div className="container">
           <div className="row">
             <div className="col-sm d-sm-flex align-items-center justify-content-center flex-sm-column text-sm-left">
-              <h3 className="text-sm-left align-self-start border-bottom border-secondary pr-5">
+              <h3 className="text-sm-left align-self-start border-bottom pr-2">
                 Hi! I'm Hoc Nguyen.
               </h3>
               <br/>
@@ -23,8 +23,8 @@ export class IntroduceMe extends React.Component {
               </p>
               <button className="btn btn-primary mt-2">Find Out More About Me</button>
             </div>
-            <div className="col-sm about-me">
-              <img src={aboutMe} alt="about me" className="img-fluid"/>
+            <div className="col-sm about-me py-5">
+              <img src={aboutMe} alt="about me" className="img-fluid border rounded border-dominating-color border-width-large"/>
             </div>
           </div>
         </div>

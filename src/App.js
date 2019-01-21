@@ -4,6 +4,7 @@ import {NavBar} from "./containers/NavBar"
 import {MainBackground} from "./containers/MainBackground"
 import {AboutMe} from "./containers/AboutMe"
 import {Projects} from "./containers/Projects"
+import {ConnectMe} from "./containers/ConnectMe"
 
 class App extends Component {
   render() {
@@ -13,6 +14,7 @@ class App extends Component {
         <MainBackground/>
         <AboutMe/>
         <Projects/>
+        <ConnectMe/>
       </div>
     );
   }

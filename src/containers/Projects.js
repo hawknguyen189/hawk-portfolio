@@ -6,13 +6,15 @@ export class Projects extends React.Component{
     return (
       <section className="container-fluid bg-light py-5" id="projects">
         <div className="container">
-          <div className="heading-title">
-            <h3 className="border-bottom border-secondary">
-              My Latest Work
-            </h3>
-            <p>
-              Some of my latest projects to be show here
-            </p>
+          <div className="row">
+            <div className="col-sm d-sm-flex align-items-center justify-content-center flex-sm-column">
+              <h3 className="border-bottom px-2">
+                My Latest Work
+              </h3>
+              <p>
+                Some of my latest projects love to be shown here
+              </p>
+            </div>
           </div>
           <div className="row py-5">
             {

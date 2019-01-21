@@ -1,7 +1,27 @@
-.dominating-color {
-  color: #d5264a; }
+.skill-cell:hover {
+  color: #d5264a;
+  background-color: white; }
 
 html {
   scroll-behavior: smooth; }
+
+.dominating-color {
+  color: #d5264a; }
+
+.border-dominating-color {
+  border-color: #d5264a !important; }
+
+.border-width-small {
+  border-width: 3px !important; }
+
+.border-width-large {
+  border-width: 6px !important; }
+
+a i:hover {
+  color: white;
+  background-color: #d5264a; }
+
+a:hover {
+  text-decoration: none; }
 
 /*# sourceMappingURL=App.css.map */

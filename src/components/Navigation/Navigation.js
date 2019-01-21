@@ -12,10 +12,10 @@ class Navigation extends React.Component{
             <a href="#projects" className="nav-link">PROJECTS</a>
           </li>
           <li className="nav-item">
-            <a href="#" className="nav-link">CONNECT WITH ME</a>
+            <a href="#" className="nav-link">TESTIMONIALS</a>
           </li>
           <li className="nav-item">
-            <a href="#" className="nav-link">TESTIMONIALS</a>
+            <a href="#connectMe" className="nav-link">CONNECT WITH ME</a>
           </li>
           <li className="nav-item">
             <a href="#" className="nav-link">CONTACT</a>

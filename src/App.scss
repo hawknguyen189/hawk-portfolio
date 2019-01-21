@@ -2,3 +2,32 @@
 html {
   scroll-behavior: smooth;
 }
+.dominating-color{
+  color: $dominating-color;
+}
+
+.border-dominating-color{
+  border-color: $dominating-color !important;
+}
+
+.border-width-small {
+  border-width: 3px !important;
+}
+
+.border-width-large {
+  border-width: 6px !important;
+}
+
+a {
+  i:hover {
+    color:white;
+    background-color: $dominating-color;
+  }
+}
+a:hover{
+  text-decoration: none;
+}
+
+.skill-cell:hover{
+  @extend %hover;
+}

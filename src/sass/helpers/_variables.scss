@@ -1,4 +1,5 @@
 $dominating-color: #d5264a;
-.dominating-color{
-  color: $dominating-color;
+%hover{
+  color:$dominating-color;
+  background-color: white;
 }

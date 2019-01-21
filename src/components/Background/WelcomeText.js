@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from "../Navigation/logo.png"
+import logo from "../../images/logo.png"
 
 const style = {backgroundColor: "rgba(0, 0, 45, 0.4)"};
 class WelcomeText extends React.Component {
