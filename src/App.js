@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import "./Animate.css";
 import {NavBar} from "./containers/NavBar"
 import {MainBackground} from "./containers/MainBackground"
 import {AboutMe} from "./containers/AboutMe"

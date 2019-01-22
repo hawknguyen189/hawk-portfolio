@@ -6,7 +6,8 @@ export class Skills extends React.Component{
   render(){
     return (
       <div className="container-fluid bg-white text-center py-5">
-        <div className="heading-text pb-5 col-sm d-sm-flex align-items-center justify-content-center flex-sm-column">
+        <div className="heading-text pb-5 col-sm d-sm-flex align-items-center justify-content-center
+          flex-sm-column wow tada" data-wow-duration="2s">
           <h3 className="border-bottom px-2">
             Technological Skills
           </h3>
@@ -14,7 +15,7 @@ export class Skills extends React.Component{
             I always enjoy learning new technologies. Especially, those will make your company special.
           </p>
         </div>
-        <div className="container text-white">
+        <div className="container text-white wow slideInUp" data-wow-duration="2s">
           <div className="row mb-3">
             <div className="col-sm-4">
               <div className="container pl-0 pr-1 pb-1">
@@ -67,7 +68,7 @@ export class Skills extends React.Component{
               <div className="container pl-0 pr-1 pb-1">
                 <div className="row">
                   <div className="col-sm skill-cell rounded border border-dominating-color border-width-small">
-                    <h6>Boostrap <i className="fas fa-laptop-code"></i></h6>
+                    <h6>Boostrap 4 <i className="fas fa-laptop-code"></i></h6>
                   </div>
                 </div>
               </div>

@@ -6,11 +6,11 @@ class WelcomeText extends React.Component {
   render(){
     return (
       <div className="container text-center">
-        <div className="row">
+        <div className="row fade-in wow">
           <div className="col-sm-6 text-white d-none d-sm-block ">
             <a href="index.html" className="navbar-brand d-flex justify-content-center align-items-center">
               <img src={logo} alt="Find Hawk logo" width="60" height="60"/>
-              <h3 className="pl-2 dominating-color">FindHawk.ca</h3>
+              <h3 className="pl-2">FindHawk.ca</h3>
             </a>
             <h3 className="text-sm-left">Light Tomorrow With Today</h3>
             <h4 className="text-sm-left">

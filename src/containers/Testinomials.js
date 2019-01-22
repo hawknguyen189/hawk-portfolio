@@ -1,4 +1,5 @@
 import React from "react";
+import {Testinomial} from "../components/Testinomial/Testinomial"
 
 export class Testinomials extends React.Component{
   render(){
@@ -6,7 +7,8 @@ export class Testinomials extends React.Component{
       <section className="container-fluid bg-white py-5 text-center" id="testinomials">
         <div className="container">
           <div className="row">
-            <div className="col-sm d-sm-flex align-items-center justify-content-center flex-sm-column">
+            <div className="col-sm d-sm-flex align-items-center justify-content-center
+              flex-sm-column wow tada" data-wow-duration="2s">
               <h3 className="border-bottom px-2">
                 Client & Teammate Testinomials
               </h3>
@@ -14,6 +16,9 @@ export class Testinomials extends React.Component{
                 Some of the feedbacks on my code path
               </p>
             </div>
+          </div>
+          <div className="row">
+            <Testinomial/>
           </div>
         </div>
       </section>

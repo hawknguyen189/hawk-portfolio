@@ -8,7 +8,8 @@ export class IntroduceMe extends React.Component {
       <div className="container-fluid bg-light py-5">
         <div className="container">
           <div className="row">
-            <div className="col-sm d-sm-flex align-items-center justify-content-center flex-sm-column text-sm-left">
+            <div className="col-sm d-sm-flex align-items-center justify-content-center
+              flex-sm-column text-sm-left bounce-in-left wow" data-wow-delay="0.5s">
               <h3 className="text-sm-left align-self-start border-bottom px-2">
                 Hi! I'm Hoc Nguyen.
               </h3>
@@ -23,7 +24,7 @@ export class IntroduceMe extends React.Component {
               </p>
               <button className="btn btn-primary mt-2">Find Out More About Me</button>
             </div>
-            <div className="col-sm about-me py-5">
+            <div className="col-sm about-me py-5 bounce-in-right wow" data-wow-delay="0.5s">
               <img src={aboutMe} alt="about me" className="img-fluid border rounded border-dominating-color border-width-large"/>
             </div>
           </div>

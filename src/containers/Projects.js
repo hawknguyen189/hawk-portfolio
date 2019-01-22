@@ -7,7 +7,8 @@ export class Projects extends React.Component{
       <section className="container-fluid bg-light py-5" id="projects">
         <div className="container">
           <div className="row">
-            <div className="col-sm d-sm-flex align-items-center justify-content-center flex-sm-column">
+            <div className="col-sm d-sm-flex align-items-center justify-content-center
+              flex-sm-column wow tada" data-wow-duration="2s">
               <h3 className="border-bottom px-2">
                 My Latest Work
               </h3>
@@ -16,7 +17,7 @@ export class Projects extends React.Component{
               </p>
             </div>
           </div>
-          <div className="row py-5">
+          <div className="row py-5 wow zoomInDown" data-wow-duration="2s">
             {
               ProjectCollection1.map((project,index) => {
                 return (
@@ -28,7 +29,7 @@ export class Projects extends React.Component{
               })
             }
           </div>
-          <div className="row">
+          <div className="row wow zoomInUp" data-wow-duration="2s">
             {
               ProjectCollection2.map((project,index) => {
                 return (

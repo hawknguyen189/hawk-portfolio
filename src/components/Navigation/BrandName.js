@@ -6,7 +6,7 @@ class BrandName extends React.Component{
     return (
       <a href="index.html" className="navbar-brand">
         <img src={logo} alt="Find Hawk logo" width="30" height="30"/>
-        <span className="dominating-color">FindHawk.ca</span>
+        <span className=""> FindHawk.ca</span>
       </a>
     )
   }
