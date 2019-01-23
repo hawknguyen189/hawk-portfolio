@@ -6,7 +6,7 @@ export class Testinomial extends React.Component{
   render() {
     return (
       <div className="col-sm d-flex justify-content-center align-items-center
-        wow fadeIn" data-wow-duration="2s" style={style}>
+        wow fadeIn" data-wow-duration="2s" data-wow-delay="0.5s" style={style}>
         <div id="testinomialsCarousel" className="border-left carousel slide w-50 h-100 d-flex justify-content-center align-items-center" data-ride="carousel">
           <ol className="carousel-indicators">
             <li data-target="#testinomialsCarousel" data-slide-to="0" className="active dominating-background-color"></li>

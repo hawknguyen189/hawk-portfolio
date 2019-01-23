@@ -8,6 +8,7 @@ import {Projects} from "./containers/Projects"
 import {ConnectMe} from "./containers/ConnectMe"
 import {Testinomials} from "./containers/Testinomials"
 import {MyAdvantages} from "./containers/MyAdvantages"
+import {Contact} from "./containers/Contact"
 
 class App extends Component {
   render() {
@@ -20,6 +21,7 @@ class App extends Component {
         <Testinomials/>
         <MyAdvantages/>
         <ConnectMe/>
+        <Contact/>
       </div>
     );
   }

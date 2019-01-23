@@ -8,7 +8,7 @@ export class Testinomials extends React.Component{
         <div className="container">
           <div className="row">
             <div className="col-sm d-sm-flex align-items-center justify-content-center
-              flex-sm-column wow tada" data-wow-duration="2s">
+              flex-sm-column wow tada" data-wow-duration="2s" data-wow-delay="0.5s">
               <h3 className="border-bottom px-2">
                 Client & Teammate Testinomials
               </h3>

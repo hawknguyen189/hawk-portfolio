@@ -8,7 +8,7 @@ export class Projects extends React.Component{
         <div className="container">
           <div className="row">
             <div className="col-sm d-sm-flex align-items-center justify-content-center
-              flex-sm-column wow tada" data-wow-duration="2s">
+              flex-sm-column wow tada" data-wow-duration="2s" data-wow-delay="0.5s">
               <h3 className="border-bottom px-2">
                 My Latest Work
               </h3>
@@ -17,7 +17,7 @@ export class Projects extends React.Component{
               </p>
             </div>
           </div>
-          <div className="row py-5 wow zoomInDown" data-wow-duration="2s">
+          <div className="row py-5 wow zoomInDown" data-wow-duration="2s" data-wow-delay="0.5s">
             {
               ProjectCollection1.map((project,index) => {
                 return (
@@ -29,7 +29,7 @@ export class Projects extends React.Component{
               })
             }
           </div>
-          <div className="row wow zoomInUp" data-wow-duration="2s">
+          <div className="row wow zoomInUp" data-wow-duration="2s" data-wow-delay="0.5s">
             {
               ProjectCollection2.map((project,index) => {
                 return (

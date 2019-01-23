@@ -7,7 +7,7 @@ export class Skills extends React.Component{
     return (
       <div className="container-fluid bg-white text-center py-5">
         <div className="heading-text pb-5 col-sm d-sm-flex align-items-center justify-content-center
-          flex-sm-column wow tada" data-wow-duration="2s">
+          flex-sm-column wow tada" data-wow-duration="2s" data-wow-delay="0.5s">
           <h3 className="border-bottom px-2">
             Technological Skills
           </h3>
@@ -15,7 +15,7 @@ export class Skills extends React.Component{
             I always enjoy learning new technologies. Especially, those will make your company special.
           </p>
         </div>
-        <div className="container text-white wow slideInUp" data-wow-duration="2s">
+        <div className="container text-white wow slideInUp" data-wow-duration="2s" data-wow-delay="0.5s">
           <div className="row mb-3">
             <div className="col-sm-4">
               <div className="container pl-0 pr-1 pb-1">

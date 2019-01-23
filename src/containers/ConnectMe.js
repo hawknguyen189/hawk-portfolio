@@ -20,22 +20,22 @@ export class ConnectMe extends React.Component{
             </div>
             <div className="col-sm">
               <div className="container d-flex justify-content-center">
-                <a href="mailto:hocnguyen1809@gmail.com" target="_blank">
+                <a href="mailto:hocnguyen1809@gmail.com" target="_blank" rel="noopener noreferrer">
                   <i className="fas fa-envelope fa-2x dominating-color border-width-small  border rounded
                     border-dominating-color mx-1 mx-sm-2" style={style}></i>
                 </a>
 
-                <a href="https://github.com/HawkNguyen" target="_blank">
+                <a href="https://github.com/HawkNguyen" target="_blank" rel="noopener noreferrer">
                   <i className="fab fa-github fa-2x dominating-color border-width-small  border rounded
                     border-dominating-color mx-1 mx-sm-2" style={style}></i>
                 </a>
 
-                <a href="https://www.linkedin.com/in/hawknguyen189/" target="_blank">
+                <a href="https://www.linkedin.com/in/hawknguyen189/" target="_blank" rel="noopener noreferrer">
                   <i className="fab fa-linkedin-in fa-2x dominating-color border-width-small  border rounded
                     border-dominating-color mx-1 mx-sm-2" style={style}></i>
                 </a>
 
-                <a href="https://www.facebook.com/hawknguyen189" target="_blank">
+                <a href="https://www.facebook.com/hawknguyen189" target="_blank" rel="noopener noreferrer">
                   <i className="fab fa-facebook-f fa-2x dominating-color border-width-small  border rounded
                     border-dominating-color mx-1 mx-sm-2" style={style}></i>
                 </a>
