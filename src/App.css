@@ -27,9 +27,13 @@ div.carousel {
 .border-width-large {
   border-width: 6px !important; }
 
-a i:hover {
+.contact-container a i:hover {
   color: white;
   background-color: #d5264a; }
+
+.footer-contact a i:hover {
+  color: #5bc0de !important;
+  background-color: transparent; }
 
 a:hover {
   text-decoration: none; }

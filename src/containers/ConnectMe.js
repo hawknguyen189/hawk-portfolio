@@ -1,7 +1,7 @@
 import React from "react";
 const style = {
-  width:"3.75rem",
-  height:"3.75rem"
+  width:"3.5rem",
+  height:"3.5rem"
 }
 
 export class ConnectMe extends React.Component{
@@ -19,7 +19,7 @@ export class ConnectMe extends React.Component{
               </p>
             </div>
             <div className="col-sm">
-              <div className="container d-flex justify-content-center">
+              <div className="container d-flex justify-content-center contact-container">
                 <a href="mailto:hocnguyen1809@gmail.com" target="_blank" rel="noopener noreferrer">
                   <i className="fas fa-envelope fa-2x dominating-color border-width-small  border rounded
                     border-dominating-color mx-1 mx-sm-2" style={style}></i>
@@ -37,6 +37,10 @@ export class ConnectMe extends React.Component{
 
                 <a href="https://www.facebook.com/hawknguyen189" target="_blank" rel="noopener noreferrer">
                   <i className="fab fa-facebook-f fa-2x dominating-color border-width-small  border rounded
+                    border-dominating-color mx-1 mx-sm-2" style={style}></i>
+                </a>
+                <a href="https://t.me/Hawk189" target="_blank" rel="noopener noreferrer">
+                  <i className="fab fa-telegram-plane fa-2x dominating-color border-width-small  border rounded
                     border-dominating-color mx-1 mx-sm-2" style={style}></i>
                 </a>
               </div>

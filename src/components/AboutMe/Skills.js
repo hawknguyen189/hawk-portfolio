@@ -7,7 +7,7 @@ export class Skills extends React.Component{
     return (
       <div className="container-fluid bg-white text-center py-5">
         <div className="heading-text pb-5 col-sm d-sm-flex align-items-center justify-content-center
-          flex-sm-column wow tada" data-wow-duration="2s" data-wow-delay="0.5s">
+          flex-sm-column wow">
           <h3 className="border-bottom px-2">
             Technological Skills
           </h3>

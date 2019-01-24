@@ -20,6 +20,7 @@ class WelcomeText extends React.Component {
           <div className="py-4 d-flex col-sm-6 text-white rounded align-middle flex-column align-items-center justify-content-center" style={style}>
             <h3>Welcome to my Workshop</h3>
             <h5>
+              <br/>
               Do you get what you're looking for here? Are you satisfied with my works?
               <br/>
               If not, please come back after few days. I do regularly update my new projects

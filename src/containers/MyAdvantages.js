@@ -7,7 +7,7 @@ export class MyAdvantages extends React.Component{
         <div className="container">
           <div className="row">
             <div className="col-sm d-sm-flex align-items-center justify-content-center flex-sm-column
-              wow tada" data-wow-duration="1s">
+              wow">
               <h3 className="border-bottom px-2 text-center">
                 Answers to your "Why me?"
               </h3>

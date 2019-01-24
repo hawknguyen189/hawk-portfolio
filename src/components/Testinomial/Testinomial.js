@@ -7,7 +7,7 @@ export class Testinomial extends React.Component{
     return (
       <div className="col-sm d-flex justify-content-center align-items-center
         wow fadeIn" data-wow-duration="2s" data-wow-delay="0.5s" style={style}>
-        <div id="testinomialsCarousel" className="border-left carousel slide w-50 h-100 d-flex justify-content-center align-items-center" data-ride="carousel">
+        <div id="testinomialsCarousel" className="border-left carousel slide w-sm-50 h-100 d-flex justify-content-center align-items-center" data-ride="carousel">
           <ol className="carousel-indicators">
             <li data-target="#testinomialsCarousel" data-slide-to="0" className="active dominating-background-color"></li>
             <li data-target="#testinomialsCarousel" data-slide-to="1" className="dominating-background-color"></li>

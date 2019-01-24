@@ -30,12 +30,25 @@ div.carousel {
   border-width: 6px !important;
 }
 
-a {
-  i:hover {
-    color:white;
-    background-color: $dominating-color;
+.contact-container{
+  a {
+    i:hover {
+      color:white;
+      background-color: $dominating-color;
+    }
   }
 }
+
+.footer-contact{
+  a {
+    i:hover {
+      color:#5bc0de !important;
+      background-color: transparent;
+    }
+  }
+}
+
+
 a:hover{
   text-decoration: none;
 }
