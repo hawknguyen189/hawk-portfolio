@@ -47,7 +47,11 @@ div.carousel {
     }
   }
 }
-
+.nav-item{
+  .nav-link:hover {
+    color:#d3d5f3 !important;
+  }
+}
 
 a:hover{
   text-decoration: none;

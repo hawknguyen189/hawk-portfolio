@@ -2,10 +2,18 @@ header .jumbotron {
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
-  background: #f8f9fa url(../../images/outdoor-silhouette-sky-night-star-milky-way.png) no-repeat center center fixed;
+  background-image: url(../../images/outdoor-silhouette-sky-night-star-milky-way.png);
+  border-color: #f8f9fa;
   background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   height: 100vh;
   align-items: center;
   margin-bottom: 0; }
+
+@media screen and (max-device-width: 1024px) {
+  header .jumbotron {
+    background-attachment: scroll; } }
 
 /*# sourceMappingURL=Background.css.map */

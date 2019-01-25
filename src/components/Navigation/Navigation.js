@@ -6,22 +6,22 @@ class Navigation extends React.Component{
       <div className="collapse navbar-collapse" id="mainNav">
         <ul className="navbar-nav ml-auto">
           <li className="nav-item active">
-            <a href="#aboutMe" className="nav-link">ABOUT ME</a>
+            <a href="#aboutMe" className="nav-link text-white">ABOUT ME</a>
           </li>
           <li className="nav-item">
-            <a href="#projects" className="nav-link">PROJECTS</a>
+            <a href="#projects" className="nav-link text-white">PROJECTS</a>
           </li>
           <li className="nav-item">
-            <a href="#testinomials" className="nav-link">TESTIMONIALS</a>
+            <a href="#testinomials" className="nav-link text-white">TESTIMONIALS</a>
           </li>
           <li className="nav-item">
-            <a href="#connectMe" className="nav-link">CONNECT WITH ME</a>
+            <a href="#connectMe" className="nav-link text-white">CONNECT WITH ME</a>
           </li>
           <li className="nav-item">
-            <a href="#contact" className="nav-link">CONTACT</a>
+            <a href="#contact" className="nav-link text-white">CONTACT</a>
           </li>
           <li className="nav-item">
-            <a href="#" className="nav-link">RESUME</a>
+            <a href="#" className="nav-link text-white">RESUME</a>
           </li>
         </ul>
       </div>

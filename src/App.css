@@ -35,6 +35,9 @@ div.carousel {
   color: #5bc0de !important;
   background-color: transparent; }
 
+.nav-item .nav-link:hover {
+  color: #d3d5f3 !important; }
+
 a:hover {
   text-decoration: none; }
 
