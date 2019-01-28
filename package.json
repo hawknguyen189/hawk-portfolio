@@ -1,8 +1,8 @@
 {
-  "name": "hawk-porfolio",
+  "name": "hawk-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://hawknguyen.github.io/hawk-portfolio/",
+  "homepage": "",
   "dependencies": {
     "@types/react": "^16.7.20",
     "react": "^16.7.0",
@@ -15,7 +15,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "aws s3 sync build/ s3://findhawk.me",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
