@@ -3,11 +3,7 @@ import './App.css';
 import "./Animate.css";
 import {NavBar} from "./containers/NavBar"
 import {MainBackground} from "./containers/MainBackground"
-import {AboutMe} from "./containers/AboutMe"
-import {Projects} from "./containers/Projects"
-import {ConnectMe} from "./containers/ConnectMe"
-import {Testinomials} from "./containers/Testinomials"
-import {MyAdvantages} from "./containers/MyAdvantages"
+import {Main} from "./containers/Main"
 import {Contact} from "./containers/Contact"
 
 class App extends Component {
@@ -16,11 +12,7 @@ class App extends Component {
       <div className="App">
         <NavBar/>
         <MainBackground/>
-        <AboutMe/>
-        <Projects/>
-        <Testinomials/>
-        <MyAdvantages/>
-        <ConnectMe/>
+        <Main/>
         <Contact/>
       </div>
     );
