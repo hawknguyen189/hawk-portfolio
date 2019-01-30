@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 
 export class Project extends React.Component{
   render (){
@@ -8,7 +9,9 @@ export class Project extends React.Component{
           <div className="card-header">
             {this.props.websiteName}
           </div>
-          <img src={require("../../images/"+ this.props.websiteImage + ".png")} alt={this.props.websiteName} className="card-img-top"/>
+          <Link to="/projectstore">
+            <img src={require("../../images/"+ this.props.websiteImage + ".png")} alt={this.props.websiteName} className="card-img-top"/>
+          </Link>
           <div className="card-body">
             <p className="class-text">
               {this.props.websiteContent}
