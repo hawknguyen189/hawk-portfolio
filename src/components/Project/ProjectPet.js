@@ -22,8 +22,8 @@ export class ProjectPet extends React.Component{
             </p>
           </div>
           <div className="col-sm-5 about-me">
-            <img src={require("../../images/portfolio-website-small.png")} alt="Website Iamge" className="img-fluid"/>
-            <div className="row py-2">
+            <img src={require("../../images/portfolio-website-small.png")} alt="Website Iamge" className="img-fluid website-img"/>
+            <div className="row py-3">
               <div className="col border rounded border-dominating-color border-width-small mx-1 px-0 ">
                 <a href="https://www.findhawk.me/" className="w-100 project-button align-items-center justify-content-center d-flex"
                   rel="noopener noreferrer">

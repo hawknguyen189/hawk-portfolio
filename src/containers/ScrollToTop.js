@@ -6,8 +6,10 @@ class ScrollToTop extends React.Component {
     if (this.props.location !== prevProps.location) {
       console.log("it is different sir");
       console.log(this.props.location)
+      console.log(this.props.match)
+      console.log(this.props.history)
       console.log(prevProps.location)
-      window.scrollTo(0, 0);
+      {/*window.scrollTo(0, 0);*/}
     }
   }
 

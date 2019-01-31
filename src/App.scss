@@ -98,3 +98,11 @@ a:hover{
 .navbar-brand{
   cursor: pointer;
 }
+
+.website-img{
+  transition: transform .4s; /* Animation */
+}
+.website-img:hover{
+  transform: scale(1.12);
+  /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
