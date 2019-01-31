@@ -1,6 +1,7 @@
 import React from 'react';
 import "./introduceme.css";
 import aboutMe from "../../images/about-me.png";
+import {HashLink as Link} from "react-router-hash-link";
 
 export class IntroduceMe extends React.Component {
   render(){
@@ -22,9 +23,9 @@ export class IntroduceMe extends React.Component {
                 enjoy spending my time on swimming in the Ocean of Coding Knowledge. Im looking forward to becoming
                 an experienced full-stack web developer in the next 3 years.
               </p>
-              <a href="../../../test.html" target="_blank">
+              <Link to="/#contact">
                 <button className="btn btn-primary mt-2">Find Out More About Me</button>
-              </a>
+              </Link>
             </div>
             <div className="col-sm about-me py-5 bounceInRight wow" data-wow-delay="0.5s" data-wow-duration="2s">
               <img src={aboutMe} alt="about me" className="img-fluid border rounded border-dominating-color border-width-large"/>

@@ -1,4 +1,5 @@
 import React from "react";
+import {HashLink as Link} from "react-router-hash-link";
 
 class Navigation extends React.Component{
   render(){
@@ -6,19 +7,18 @@ class Navigation extends React.Component{
       <div className="collapse navbar-collapse" id="mainNav">
         <ul className="navbar-nav ml-auto">
           <li className="nav-item active">
-            <a href="#aboutMe" className="nav-link text-white">ABOUT ME</a>
+            <Link to="/#aboutMe" className="nav-link text-white">ABOUT ME</Link>
           </li>
           <li className="nav-item">
-            <a href="#projects" className="nav-link text-white">PROJECTS</a>
+            <Link to="/#projects" className="nav-link text-white">PROJECTS</Link>
           </li>
           <li className="nav-item">
-            <a href="#testinomials" className="nav-link text-white">TESTIMONIALS</a>
+            <Link to="/#testinomials" className="nav-link text-white">TESTIMONIALS</Link>
           </li>
           <li className="nav-item">
-            <a href="#connectMe" className="nav-link text-white">CONNECT WITH ME</a>
           </li>
           <li className="nav-item">
-            <a href="#contact" className="nav-link text-white">CONTACT</a>
+            <Link to="/#contact" className="nav-link text-white">CONTACT</Link>
           </li>
           <li className="nav-item">
             <a href="#" className="nav-link text-white">RESUME</a>

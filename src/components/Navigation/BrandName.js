@@ -1,13 +1,14 @@
 import React from "react";
-import logo from "../../images/logo.png"
+import logo from "../../images/logo.png";
+import {HashLink as Link} from "react-router-hash-link";
 
 class BrandName extends React.Component{
   render(){
     return (
-      <a href="index.html" className="navbar-brand">
+      <Link to="/" className="navbar-brand">
         <img src={logo} alt="Find Hawk logo" width="30" height="30"/>
-        <span className=""> FindHawk.ca</span>
-      </a>
+        <span className=""> FindHawk.me</span>
+      </Link>
     )
   }
 }
