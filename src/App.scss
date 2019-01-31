@@ -60,6 +60,19 @@ a:hover{
 .skill-cell:hover{
   @extend %hover;
 }
+.skill-cell{
+  background-color: $dominating-color;
+  height: 50px;
+}
+
+.project-button{
+  background-color: $dominating-color;
+  color:white;
+  height: 40px;
+}
+.project-button:hover{
+  @extend %hover;
+}
 
 .fade-in{
   animation-name: fade-in;
@@ -80,4 +93,8 @@ a:hover{
 @keyframes fade-in {
   from {opacity:0;  }
   to {opacity:1;  }
+}
+
+.navbar-brand{
+  cursor: pointer;
 }

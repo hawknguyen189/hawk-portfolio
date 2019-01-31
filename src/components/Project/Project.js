@@ -1,5 +1,5 @@
 import React from "react";
-import {Link} from "react-router-dom";
+import {HashLink as Link} from "react-router-hash-link";
 
 export class Project extends React.Component{
   render (){
@@ -9,8 +9,9 @@ export class Project extends React.Component{
           <div className="card-header">
             {this.props.websiteName}
           </div>
-          <Link to="/projectstore">
-            <img src={require("../../images/"+ this.props.websiteImage + ".png")} alt={this.props.websiteName} className="card-img-top"/>
+          <Link to="/projectpets/#myPets">
+            <img src={require("../../images/"+ this.props.websiteImage + ".png")} alt={this.props.websiteName} className="card-img-top"
+              height="150"/>
           </Link>
           <div className="card-body">
             <p className="class-text">

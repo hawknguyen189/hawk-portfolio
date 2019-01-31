@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AACA,WAAW;EACT,gBAAgB,ECFC,OAAO;EDGxB,MAAM,EAAE,IAAI;;AAGZ,aAAQ;EACN,OAAO,EAAE,YAAY;EACrB,OAAO,EAAE,QAAQ;EACjB,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;EACnB,eAAe,EAAE,MAAM",
-"sources": ["Skills.scss","../../sass/helpers/_variables.scss"],
+"mappings": "AAGE,aAAQ;EACN,OAAO,EAAE,YAAY;EACrB,OAAO,EAAE,QAAQ;EACjB,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;EACnB,eAAe,EAAE,MAAM",
+"sources": ["Skills.scss"],
 "names": [],
 "file": "Skills.css"
 }

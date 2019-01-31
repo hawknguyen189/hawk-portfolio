@@ -1,5 +1,5 @@
-.skill-cell:hover {
-  color: #d5264a;
+.skill-cell:hover, .project-button:hover {
+  color: #d5264a !important;
   background-color: white; }
 
 html {
@@ -41,6 +41,15 @@ div.carousel {
 a:hover {
   text-decoration: none; }
 
+.skill-cell {
+  background-color: #d5264a;
+  height: 50px; }
+
+.project-button {
+  background-color: #d5264a;
+  color: white;
+  height: 40px; }
+
 .fade-in {
   animation-name: fade-in;
   animation-duration: 3.5s; }
@@ -65,5 +74,7 @@ a:hover {
     opacity: 0; }
   to {
     opacity: 1; } }
+.navbar-brand {
+  cursor: pointer; }
 
 /*# sourceMappingURL=App.css.map */

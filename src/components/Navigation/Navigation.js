@@ -16,6 +16,7 @@ class Navigation extends React.Component{
             <Link to="/#testinomials" className="nav-link text-white">TESTIMONIALS</Link>
           </li>
           <li className="nav-item">
+            <Link to="/#connectMe" className="nav-link text-white">CONNECT WITH ME</Link>
           </li>
           <li className="nav-item">
             <Link to="/#contact" className="nav-link text-white">CONTACT</Link>

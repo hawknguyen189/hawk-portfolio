@@ -1,7 +1,7 @@
 const ProjectCollection1 = [
   {
-    websiteName: "Coming soon...",
-    websiteImage: "coming-soon",
+    websiteName: "Portfolio Website",
+    websiteImage: "portfolio-website-small",
     websiteContent: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Integer posuere erat a ante."
   },
   {
