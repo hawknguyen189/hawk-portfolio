@@ -17,7 +17,7 @@ export class Projects extends React.Component{
               </p>
             </div>
           </div>
-          <div className="row py-5 wow zoomInDown" data-wow-duration="2s" data-wow-delay="0.5s">
+          <div className="row py-5 wow zoomInDown" data-wow-duration="1s" data-wow-delay="0.5s">
             {
               ProjectCollection1.map((project,index) => {
                 return (

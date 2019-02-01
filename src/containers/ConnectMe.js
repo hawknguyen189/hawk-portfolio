@@ -7,7 +7,7 @@ const style = {
 export class ConnectMe extends React.Component{
   render (){
     return (
-      <section className="container-fluid bg-white py-5" id="connectMe">
+      <section className="container-fluid bg-white py-5 d-flex align-items-center" id="connectMe" style={{height:"21rem"}}>
         <div className="container">
           <div className="row">
             <div className="col-sm d-sm-flex align-items-sm-left justify-content-center flex-sm-column">

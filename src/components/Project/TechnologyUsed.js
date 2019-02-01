@@ -14,7 +14,7 @@ export class TechnologyUsed extends React.Component{
           </div>
         </div>
         <div className="row py-3">
-          <div className="col-sm-6">
+          <div className="col-sm-6 py-2">
             <img src={require("../../images/portfolio-website-small.png")} alt="Website Iamge" className="img-fluid website-img"/>
           </div>
           <div className="col-sm-6 d-sm-flex
@@ -36,7 +36,7 @@ export class TechnologyUsed extends React.Component{
         </div>
         <div className="row py-3">
           <div className="col d-flex justify-content-center align-item-centers">
-            <Link to="/#projects" className="w-50 project-button align-items-center justify-content-center d-flex
+            <Link to="/#projects" className="w-sm-50 project-button align-items-center justify-content-center d-flex
               border rounded border-dominating-color border-width-small">
               <h6 className="w-100 text-center">
                 <i className="fas fa-angle-double-left"></i> Go back to project collection

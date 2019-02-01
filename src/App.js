@@ -7,8 +7,7 @@ import {Main} from "./containers/Main";
 import {Contact} from "./containers/Contact";
 import {ProjectPets} from "./containers/ProjectPets";
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
-{/*import ScrollToTop from "./containers/ScrollToTop";*/}
-{/*import ScrollToTopOnMount from "./containers/ScrollToTopOnMount";*/}
+
 
 class App extends Component {
   render() {
