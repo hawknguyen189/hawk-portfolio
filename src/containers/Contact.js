@@ -66,7 +66,7 @@ export class Contact extends React.Component{
                     <i className="fas fa-phone-volume"></i> Phone: 514-984-4295
                   </p>
               </div>
-              <div className="col-sm text-center">
+              <div className="col-sm text-center mt-3">
                 &#169; Hawk Nguyen 2019
               </div>
             </div>

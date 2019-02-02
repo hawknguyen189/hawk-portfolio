@@ -36,7 +36,8 @@ export class ProjectPet extends React.Component{
               <div className="col border rounded border-dominating-color border-width-small mx-1 px-0"
                 rel="noopener noreferrer">
                 <a href="https://github.com/HawkNguyen/hawk-portfolio" className="w-100 project-button
-                  align-items-center justify-content-center d-flex" target="_blank">
+                  align-items-center justify-content-center d-flex" target="_blank"
+                  rel="noopener noreferrer">
                   <h6>
                     View Code
                   </h6>
