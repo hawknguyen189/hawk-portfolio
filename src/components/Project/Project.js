@@ -9,7 +9,7 @@ export class Project extends React.Component{
           <div className="card-header">
             {this.props.websiteName}
           </div>
-          <Link to="/projectpets/#myPets">
+          <Link to={`/projectpets/${this.props.websiteId}/#myPets`}>
             <img src={require("../../images/"+ this.props.websiteImage + ".png")} alt={this.props.websiteName} className="card-img-top"
               height="150"/>
           </Link>

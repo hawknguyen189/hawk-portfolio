@@ -4,7 +4,7 @@ import {ProjectCollection1} from "../components/Project/ProjectCollection";
 export class Projects extends React.Component{
   render (){
     return (
-      <section className="container-fluid bg-light py-5" id="projects">
+      <div>
         <div className="container">
           <div className="row">
             <div className="col-sm d-sm-flex align-items-center justify-content-center
@@ -22,28 +22,29 @@ export class Projects extends React.Component{
               ProjectCollection1.map((project,index) => {
                 return (
                   <Project websiteName={project["websiteName"]}
-                  websiteImage={project["websiteImage"]}
-                  websiteContent={project["websiteContent"]}
-                  websiteId={project["websiteId"]}
-                  key={index}/>
+                    websiteImage={project["websiteImage"]}
+                    websiteContent={project["websiteContent"]}
+                    websiteId={project["websiteId"]}
+                    key={index}/>
                 )
               })
             }
           </div>
           {/*<div className="row wow zoomInUp" data-wow-duration="2s" data-wow-delay="0.5s">
             {
-              ProjectCollection2.map((project,index) => {
-                return (
-                  <Project websiteName={project["websiteName"]}
-                  websiteImage={project["websiteImage"]}
-                  websiteContent={project["websiteContent"]}
-                  key={index}/>
-                )
-              })
+            ProjectCollection2.map((project,index) => {
+            return (
+            <Project websiteName={project["websiteName"]}
+            websiteImage={project["websiteImage"]}
+            websiteContent={project["websiteContent"]}
+            key={index}/>
+            )
+            })
             }
-          </div>*/}
-        </div>
-      </section>
+            </div>*/}
+          </div>
+      </div>
+
     )
   }
 }

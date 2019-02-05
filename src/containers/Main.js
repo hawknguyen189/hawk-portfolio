@@ -10,7 +10,9 @@ export class Main extends React.Component {
     return (
       <main>
         <AboutMe/>
-        <Projects/>
+        <section className="container-fluid bg-light py-5" id="projects">
+          <Projects/>
+        </section>
         <Testinomials/>
         <MyAdvantages/>
         <ConnectMe/>

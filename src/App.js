@@ -19,7 +19,7 @@ class App extends Component {
               <Route path="/" component={MainBackground}/>
               <Switch>
                 <Route exact={true} path="/" component={Main}/>
-                <Route exact={true} path="/projectpets" component={ProjectPets}/>
+                <Route path="/projectpets" component={ProjectPets}/>
               </Switch>
               <Route path="/" component={Contact}/>
             </div>
