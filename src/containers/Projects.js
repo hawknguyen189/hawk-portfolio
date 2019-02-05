@@ -24,6 +24,7 @@ export class Projects extends React.Component{
                   <Project websiteName={project["websiteName"]}
                   websiteImage={project["websiteImage"]}
                   websiteContent={project["websiteContent"]}
+                  websiteId={project["websiteId"]}
                   key={index}/>
                 )
               })
