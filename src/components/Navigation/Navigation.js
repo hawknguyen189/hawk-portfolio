@@ -23,7 +23,7 @@ class Navigation extends React.Component{
             <Link to="/#contact" className="nav-link text-white">CONTACT</Link>
           </li>
           <li className="nav-item">
-            <a href="../../misc/HocNguyen-Resume.pdf" className="nav-link text-white">RESUME <i className="fas fa-download"></i></a>
+            <a href={resume} className="nav-link text-white" target="_blank">RESUME <i className="fas fa-download"></i></a>
           </li>
         </ul>
       </div>
