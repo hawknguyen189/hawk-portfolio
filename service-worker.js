@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/hawk-portfolio/precache-manifest.614f6a6e0c5dbb37460f98c8a3f32467.js"
+  "/HawkNguyen/hawk-portfolio/precache-manifest.9c19b8c7c4e7b1d7ce2307674870f720.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/hawk-portfolio/index.html", {
+workbox.routing.registerNavigationRoute("/HawkNguyen/hawk-portfolio/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
