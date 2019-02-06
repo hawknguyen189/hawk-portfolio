@@ -1,6 +1,5 @@
 import React from 'react';
 import "./Skills.css";
-import d3 from "../../images/d3-white.png"
 
 export class Skills extends React.Component{
   render(){
