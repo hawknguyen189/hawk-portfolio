@@ -68,7 +68,7 @@ export class Skills extends React.Component{
               <div className="container pl-0 pr-1 pb-1">
                 <div className="row">
                   <div className="col-sm skill-cell rounded border border-dominating-color border-width-small">
-                    <h6>Boostrap 4 <i className="fas fa-laptop-code"></i></h6>
+                    <h6>Bootstrap 4 <i className="fas fa-laptop-code"></i></h6>
                   </div>
                 </div>
               </div>
@@ -77,7 +77,8 @@ export class Skills extends React.Component{
               <div className="container pl-0 pr-1 pb-1">
                 <div className="row">
                   <div className="col-sm skill-cell rounded border border-dominating-color border-width-small">
-                    <h6>D3 <img className="mb-1" src={d3} alt="d3 logo" width="16" height="16"/></h6>
+                    {/*<h6>D3 <img className="mb-1" src={d3} alt="d3 logo" width="16" height="16"/></h6>*/}
+                    <h6>WordPress <i className="fab fa-wordpress"></i></h6>
                   </div>
                 </div>
               </div>

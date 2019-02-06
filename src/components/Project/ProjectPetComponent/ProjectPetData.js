@@ -5,9 +5,9 @@ export const ProjectPetData = [
     websiteImage: "portfolio-website-small",
     websiteLink: "https://www.findhawk.me/",
     websiteGit: "https://github.com/HawkNguyen/hawk-portfolio",
-    responsiveImage: "portfolio-website-small",
+    responsiveImage: "mocked-up-website.jpg",
     techonologies: ['React',"Boostrap","React Router","Sass"],
-    extra: "This project got animated from WOW and Animate.css which help add the amazing animations and reveal animations when scrolling. Also, the react-router-hash-link package helps to add local scrolling for internal anchor."
+    extra: "This project got animated by WOW and Animate.css which help add the amazing animations and reveal animations when scrolling. Also, the react-router-hash-link package helps to add local scrolling for internal anchor."
   },
   {
     websiteID: "LoremIpsum1",
@@ -15,7 +15,7 @@ export const ProjectPetData = [
     websiteImage: "coming-soon",
     websiteLink: "https://www.findhawk.me/",
     websiteGit: "https://github.com/HawkNguyen/",
-    responsiveImage: "coming-soon",
+    responsiveImage: "coming-soon.png",
     techonologies: ["updating","updating","updating"],
     extra: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Integer posuere erat a ante."
   },
@@ -25,7 +25,7 @@ export const ProjectPetData = [
     websiteImage: "coming-soon",
     websiteLink: "https://www.findhawk.me/",
     websiteGit: "https://github.com/HawkNguyen/",
-    responsiveImage: "coming-soon",
+    responsiveImage: "coming-soon.png",
     techonologies: ["updating","updating","updating"],
     extra: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Integer posuere erat a ante."
   },
@@ -35,7 +35,7 @@ export const ProjectPetData = [
     websiteImage: "coming-soon",
     websiteLink: "https://www.findhawk.me/",
     websiteGit: "https://github.com/HawkNguyen/",
-    responsiveImage: "coming-soon",
+    responsiveImage: "coming-soon.png",
     techonologies: ["updating","updating","updating"],
     extra: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Integer posuere erat a ante."
   }

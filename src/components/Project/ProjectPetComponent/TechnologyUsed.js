@@ -15,8 +15,8 @@ export class TechnologyUsed extends React.Component{
             </div>
           </div>
           <div className="row py-3">
-            <div className="col-sm-6 py-2">
-              <img src={require("../../../images/"+ this.props.responsiveImage + ".png")} alt="Website Iamge" className="img-fluid website-img"/>
+            <div className="col-sm-6">
+              <img src={require("../../../images/"+ this.props.responsiveImage)} alt="Website Iamge" className="img-fluid website-img border"/>
             </div>
             <div className="col-sm-6 d-sm-flex
               flex-sm-column text-sm-left">

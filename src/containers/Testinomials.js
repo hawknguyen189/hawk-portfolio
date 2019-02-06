@@ -13,7 +13,7 @@ export class Testinomials extends React.Component{
                 Client & Teammate Testinomials
               </h3>
               <p>
-                Some of the feedbacks on my code path
+                Some of the feedbacks on my coding path
               </p>
             </div>
           </div>

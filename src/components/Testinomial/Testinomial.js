@@ -13,27 +13,21 @@ export class Testinomial extends React.Component{
             <li data-target="#testinomialsCarousel" data-slide-to="1" className="dominating-background-color"></li>
             <li data-target="#testinomialsCarousel" data-slide-to="2" className="dominating-background-color"></li>
           </ol>
-          <div className="carousel-inner">
+          <div className="carousel-inner px-3">
             <div className="carousel-item active">
-              <p className="d-block w-100">
-                1/
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse
-                lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.
-              </p>
+              <h6 className="d-block w-100">
+                 "Hawk has done a fantastic job overall. Everything is very clean and slick. Love the way he managed to solve the problems" - Vince Ng, Seattle, US.
+              </h6>
             </div>
             <div className="carousel-item">
-              <p className="d-block w-100">
-                2/
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse
-                lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.
-              </p>
+              <h6 className="d-block w-100">
+                 "It has been a real pleasure working with Hawk. He has been very professional and very clear in all communications, which I appreciate." - Hung Huy, Ho Chi Minh city, VN.
+              </h6>
             </div>
             <div className="carousel-item">
-              <p className="d-block w-100">
-                3/
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse
-                lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.
-              </p>
+              <h6 className="d-block w-100">
+                 "His communication was excellent from the outset and showed a willingness to persevere until the perfect design was achieved." - Hana, Ho Chi Minh city, VN
+              </h6>
             </div>
           </div>
         </div>
