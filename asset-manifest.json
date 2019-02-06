@@ -1,14 +1,14 @@
 {
   "main.css": "/HawkNguyen/hawk-portfolio/static/css/main.c2fc0b7c.chunk.css",
-  "main.js": "/HawkNguyen/hawk-portfolio/static/js/main.fa28df4d.chunk.js",
-  "main.js.map": "/HawkNguyen/hawk-portfolio/static/js/main.fa28df4d.chunk.js.map",
-  "static/js/1.57f27cb1.chunk.js": "/HawkNguyen/hawk-portfolio/static/js/1.57f27cb1.chunk.js",
-  "static/js/1.57f27cb1.chunk.js.map": "/HawkNguyen/hawk-portfolio/static/js/1.57f27cb1.chunk.js.map",
+  "main.js": "/HawkNguyen/hawk-portfolio/static/js/main.b1af9e10.chunk.js",
+  "main.js.map": "/HawkNguyen/hawk-portfolio/static/js/main.b1af9e10.chunk.js.map",
+  "static/js/1.0f9371b9.chunk.js": "/HawkNguyen/hawk-portfolio/static/js/1.0f9371b9.chunk.js",
+  "static/js/1.0f9371b9.chunk.js.map": "/HawkNguyen/hawk-portfolio/static/js/1.0f9371b9.chunk.js.map",
   "runtime~main.js": "/HawkNguyen/hawk-portfolio/static/js/runtime~main.8ee54425.js",
   "runtime~main.js.map": "/HawkNguyen/hawk-portfolio/static/js/runtime~main.8ee54425.js.map",
   "static/media/logo.png": "/HawkNguyen/hawk-portfolio/static/media/logo.9056ee29.png",
-  "static/media/d3-white.png": "/HawkNguyen/hawk-portfolio/static/media/d3-white.7bd61b24.png",
   "static/media/coming-soon.png": "/HawkNguyen/hawk-portfolio/static/media/coming-soon.20203484.png",
+  "static/media/d3-white.png": "/HawkNguyen/hawk-portfolio/static/media/d3-white.7bd61b24.png",
   "static/media/Background.css": "/HawkNguyen/hawk-portfolio/static/media/outdoor-silhouette-sky-night-star-milky-way.4abd7770.png",
   "static/media/portfolio-website-small.png": "/HawkNguyen/hawk-portfolio/static/media/portfolio-website-small.0c45ef24.png",
   "static/media/HocNguyen-Resume.pdf": "/HawkNguyen/hawk-portfolio/static/media/HocNguyen-Resume.1f11a0b7.pdf",
@@ -16,6 +16,6 @@
   "static/media/about-me.png": "/HawkNguyen/hawk-portfolio/static/media/about-me.f709a30d.png",
   "static/css/main.c2fc0b7c.chunk.css.map": "/HawkNguyen/hawk-portfolio/static/css/main.c2fc0b7c.chunk.css.map",
   "index.html": "/HawkNguyen/hawk-portfolio/index.html",
-  "precache-manifest.9c19b8c7c4e7b1d7ce2307674870f720.js": "/HawkNguyen/hawk-portfolio/precache-manifest.9c19b8c7c4e7b1d7ce2307674870f720.js",
+  "precache-manifest.d2e405a953fb79a503cd9dd0db210af3.js": "/HawkNguyen/hawk-portfolio/precache-manifest.d2e405a953fb79a503cd9dd0db210af3.js",
   "service-worker.js": "/HawkNguyen/hawk-portfolio/service-worker.js"
 }

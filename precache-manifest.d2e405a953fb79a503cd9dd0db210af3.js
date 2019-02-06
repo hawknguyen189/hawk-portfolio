@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "7bd61b2430589ffbf52d6cab2532bf16",
-    "url": "/HawkNguyen/hawk-portfolio/static/media/d3-white.7bd61b24.png"
+    "revision": "20203484d6d44aa59a066d30415f1690",
+    "url": "/HawkNguyen/hawk-portfolio/static/media/coming-soon.20203484.png"
   },
   {
-    "revision": "fa28df4d98c568c36ced",
+    "revision": "b1af9e105ffc7854a641",
     "url": "/HawkNguyen/hawk-portfolio/static/css/main.c2fc0b7c.chunk.css"
   },
   {
-    "revision": "57f27cb15a2d0c2adf53",
-    "url": "/HawkNguyen/hawk-portfolio/static/js/1.57f27cb1.chunk.js"
+    "revision": "0f9371b926b7efbce051",
+    "url": "/HawkNguyen/hawk-portfolio/static/js/1.0f9371b9.chunk.js"
   },
   {
     "revision": "8ee54425f58325d09b85",
@@ -24,12 +24,12 @@ self.__precacheManifest = [
     "url": "/HawkNguyen/hawk-portfolio/static/media/about-me.f709a30d.png"
   },
   {
-    "revision": "fa28df4d98c568c36ced",
-    "url": "/HawkNguyen/hawk-portfolio/static/js/main.fa28df4d.chunk.js"
+    "revision": "b1af9e105ffc7854a641",
+    "url": "/HawkNguyen/hawk-portfolio/static/js/main.b1af9e10.chunk.js"
   },
   {
-    "revision": "20203484d6d44aa59a066d30415f1690",
-    "url": "/HawkNguyen/hawk-portfolio/static/media/coming-soon.20203484.png"
+    "revision": "7bd61b2430589ffbf52d6cab2532bf16",
+    "url": "/HawkNguyen/hawk-portfolio/static/media/d3-white.7bd61b24.png"
   },
   {
     "revision": "4abd77700d0ee197ae8ffb38b4256172",
@@ -48,7 +48,7 @@ self.__precacheManifest = [
     "url": "/HawkNguyen/hawk-portfolio/static/media/mocked-up-website.b36ed309.jpg"
   },
   {
-    "revision": "2caae70f49f1d83b168df41b9d87dff5",
+    "revision": "cb64be207d5f3ff08dbe7815f22d9ef2",
     "url": "/HawkNguyen/hawk-portfolio/index.html"
   }
 ];
