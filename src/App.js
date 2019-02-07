@@ -12,7 +12,7 @@ import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 class App extends Component {
   render() {
     return (
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
           {/*<ScrollToTop>*/}
             <div className="App">
               <Route path="/" component={NavBar}/>
