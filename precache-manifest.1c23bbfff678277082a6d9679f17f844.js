@@ -4,12 +4,12 @@ self.__precacheManifest = [
     "url": "/HawkNguyen/hawk-portfolio/static/media/coming-soon.20203484.png"
   },
   {
-    "revision": "f20afdc77187388e00c8",
-    "url": "/HawkNguyen/hawk-portfolio/static/css/main.4403ca1d.chunk.css"
+    "revision": "e3d59d4b120478246008",
+    "url": "/HawkNguyen/hawk-portfolio/static/css/main.c2fc0b7c.chunk.css"
   },
   {
-    "revision": "525aec6679fb0d72c617",
-    "url": "/HawkNguyen/hawk-portfolio/static/js/1.525aec66.chunk.js"
+    "revision": "0f9371b926b7efbce051",
+    "url": "/HawkNguyen/hawk-portfolio/static/js/1.0f9371b9.chunk.js"
   },
   {
     "revision": "8ee54425f58325d09b85",
@@ -24,8 +24,8 @@ self.__precacheManifest = [
     "url": "/HawkNguyen/hawk-portfolio/static/media/about-me.f709a30d.png"
   },
   {
-    "revision": "f20afdc77187388e00c8",
-    "url": "/HawkNguyen/hawk-portfolio/static/js/main.f20afdc7.chunk.js"
+    "revision": "e3d59d4b120478246008",
+    "url": "/HawkNguyen/hawk-portfolio/static/js/main.e3d59d4b.chunk.js"
   },
   {
     "revision": "7bd61b2430589ffbf52d6cab2532bf16",
@@ -48,7 +48,7 @@ self.__precacheManifest = [
     "url": "/HawkNguyen/hawk-portfolio/static/media/mocked-up-website.b36ed309.jpg"
   },
   {
-    "revision": "28042fc175b42c7f11b69e58d5c463ed",
+    "revision": "96b20697d2c0bdbddbccf43ce8417992",
     "url": "/HawkNguyen/hawk-portfolio/index.html"
   }
 ];
