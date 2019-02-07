@@ -48,7 +48,7 @@ self.__precacheManifest = [
     "url": "/HawkNguyen/hawk-portfolio/static/media/mocked-up-website.b36ed309.jpg"
   },
   {
-    "revision": "00d1738c873a24ff1811e6a477caa988",
+    "revision": "96b20697d2c0bdbddbccf43ce8417992",
     "url": "/HawkNguyen/hawk-portfolio/index.html"
   }
 ];
