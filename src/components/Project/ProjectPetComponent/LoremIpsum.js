@@ -1,12 +1,12 @@
 import React from "react";
 import {ProjectPet} from "./ProjectPet";
 import {TechnologyUsed} from "./TechnologyUsed";
-import {ProjectPetData} from "./ProjectPetData";
+import {ProjectCollection1 as ProjectPetData} from "../ProjectCollection";
 
 export class LoremIpsum extends React.Component{
   render (){
     return(
-      <div id="portfolio">
+      <div id="comingSoon">
         <ProjectPet
           websiteIntro={ProjectPetData[1]["websiteIntro"]}
           websiteImage={ProjectPetData[1]["websiteImage"]}

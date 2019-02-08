@@ -135,7 +135,7 @@ export class Skills extends React.Component{
               <div className="container pl-0 pr-1 pb-1">
                 <div className="row">
                   <div className="col-sm skill-cell rounded border border-dominating-color border-width-small">
-                    <h6>Github <i className="fab fa-github"></i></h6>
+                    <h6>Babel <i className="fab fa-js-square"></i></h6>
                   </div>
                 </div>
               </div>

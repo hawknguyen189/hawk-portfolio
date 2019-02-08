@@ -1,7 +1,7 @@
 import React from "react";
 import {ProjectPet} from "./ProjectPet";
 import {TechnologyUsed} from "./TechnologyUsed";
-import {ProjectPetData} from "./ProjectPetData";
+import {ProjectCollection1 as ProjectPetData} from "../ProjectCollection";
 
 export class PortfolioWebsite extends React.Component{
   render (){
