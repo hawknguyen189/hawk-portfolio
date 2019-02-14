@@ -7,7 +7,7 @@ module.exports = {
   mode: "production",
   output: {
     filename: 'main_bundle.js',
-    path: path.resolve(__dirname, 'dist')
+    path: path.resolve(__dirname, 'docs')
   },
   module: {
     rules: [
@@ -55,7 +55,7 @@ module.exports = {
     ]
   },
   plugins: [
-    new CleanWebpackPlugin(['dist']),
+    new CleanWebpackPlugin(['docs']),
     new HtmlWebPackPlugin({
       template: "./src/webpack/index.html",
       filename: "./index.html",

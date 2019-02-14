@@ -12,16 +12,16 @@ import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 class App extends Component {
   render() {
     return (
-      <Router basename={process.env.PUBLIC_URL}>
+      <Router>
           {/*<ScrollToTop>*/}
             <div className="App">
-              <Route path="/" component={NavBar}/>
+              <Route path={process.env.PUBLIC_URL + '/'} component={NavBar}/>
               <Route path="/" component={MainBackground}/>
               <Switch>
-                <Route exact={true} path="/" component={Main}/>
+                <Route exact={true} path={process.env.PUBLIC_URL + '/'} component={Main}/>
                 <Route path="/projectpets" component={ProjectPets}/>
               </Switch>
-              <Route path="/" component={Contact}/>
+              <Route path={process.env.PUBLIC_URL + '/'} component={Contact}/>
             </div>
           {/*</ScrollToTop>*/}
       </Router>
