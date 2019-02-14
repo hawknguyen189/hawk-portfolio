@@ -8,20 +8,20 @@ import {Contact} from "./containers/Contact";
 import {ProjectPets} from "./containers/ProjectPets";
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 
-
 class App extends Component {
   render() {
     return (
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
           {/*<ScrollToTop>*/}
             <div className="App">
-              <Route path={process.env.PUBLIC_URL + '/'} component={NavBar}/>
+              {console.log(`this is your process.env.PUBLIC_URL ${process.env.PUBLIC_URL}`)}
+              <Route path="/" component={NavBar}/>
               <Route path="/" component={MainBackground}/>
               <Switch>
-                <Route exact={true} path={process.env.PUBLIC_URL + '/'} component={Main}/>
+                <Route exact={true} path="/" component={Main}/>
                 <Route path="/projectpets" component={ProjectPets}/>
               </Switch>
-              <Route path={process.env.PUBLIC_URL + '/'} component={Contact}/>
+              <Route path="/" component={Contact}/>
             </div>
           {/*</ScrollToTop>*/}
       </Router>
