@@ -1,12 +1,14 @@
 @import "./sass/helpers/variables.scss";
+
 html {
   scroll-behavior: smooth;
 }
-.dominating-color{
+
+.dominating-color {
   color: $dominating-color;
 }
 
-.navbar{
+.navbar {
   padding-top: 0.2rem;
   padding-bottom: 0.2rem;
 }
@@ -14,11 +16,12 @@ html {
 div.carousel {
   border-width: 0.25rem !important;
 }
-.dominating-background-color{
+
+.dominating-background-color {
   background-color: $dominating-color !important;
 }
 
-.border-dominating-color{
+.border-dominating-color {
   border-color: $dominating-color !important;
 }
 
@@ -30,95 +33,126 @@ div.carousel {
   border-width: 6px !important;
 }
 
-.contact-container{
+.contact-container {
   a {
     i:hover {
-      color:white;
+      color: white;
       background-color: $dominating-color;
     }
   }
 }
 
-.footer-contact{
+.footer-contact {
   a {
     i:hover {
-      color:#5bc0de !important;
+      color: #5bc0de !important;
       background-color: transparent;
     }
   }
 }
-.nav-item{
+
+.nav-item {
   .nav-link:hover {
-    color:#d3d5f3 !important;
+    color: #d3d5f3 !important;
   }
 }
 
-a:hover{
+a:hover {
   text-decoration: none;
 }
 
-.skill-cell:hover{
+.skill-cell:hover {
   @extend %hover;
 }
-.skill-cell{
+
+.skill-cell {
   background-color: $dominating-color;
   height: 50px;
 }
 
-.project-button{
+.project-button {
   background-color: $dominating-color;
-  color:white;
+  color: white;
   height: 40px;
 }
-.project-button:hover{
+
+.project-button:hover {
   @extend %hover;
 }
 
-.fade-in{
+.fade-in {
   animation-name: fade-in;
   animation-duration: 3.5s;
 }
+
 @-webkit-keyframes fade-in {
-  from {opacity:0;  }
-  to {opacity:1;  }
-}
-@-o-keyframes fade-in {
-  from {opacity:0;  }
-  to {opacity:1;  }
-}
-@-moz-keyframes fade-in {
-  from {opacity:0;  }
-  to {opacity:1;  }
-}
-@keyframes fade-in {
-  from {opacity:0;  }
-  to {opacity:1;  }
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
-.navbar-brand{
+@-o-keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.navbar-brand {
   cursor: pointer;
 }
 
-.website-img{
-  transition: transform .4s; /* Animation */
+.website-img {
+  transition: transform .4s;
+  /* Animation */
 }
-.website-img:hover{
+
+.website-img:hover {
   transform: scale(1.11);
   /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
-.project-overlay{
+
+.project-overlay {
   background-image: url(./images/overlay-image.png);
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0, 0, 0, 0.5);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
   opacity: 1;
   width: 100%;
   height: 150px;
-  z-index:2000 ;
+  z-index: 2000;
   position: absolute;
-  top:0;
+  top: 0;
 }
-img{
-  z-index:-1 !important;
+
+img {
+  z-index: -1 !important;
 }
