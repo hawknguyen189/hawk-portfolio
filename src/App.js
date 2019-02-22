@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import './App.css';
+import React, { Component } from "react";
+import "./App.css";
 import "./Animate.css";
 import { NavBar } from "./containers/NavBar";
 import { MainBackground } from "./containers/MainBackground";
@@ -14,8 +14,7 @@ class App extends Component {
       <Router basename={process.env.PUBLIC_URL}>
         {/*<ScrollToTop>*/}
         <div className="App">
-
-          {console.log('public url: ', process.env)}
+          {console.log("public url: ", process.env)}
           <Route path="/" component={NavBar} />
           <Route path="/" component={MainBackground} />
           <Switch>
