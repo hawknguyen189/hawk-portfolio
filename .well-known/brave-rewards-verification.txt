@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: findhawk.me
+Token: b11f8d143492589cdb8a31f7b09a084496b1374395669638b008bb5c3c8f804a
