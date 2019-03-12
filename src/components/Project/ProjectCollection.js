@@ -8,7 +8,7 @@ const ProjectCollection1 = [
     websiteLink: "https://www.findhawk.me/",
     websiteGit: "https://github.com/HawkNguyen/hawk-portfolio",
     responsiveImage: "mocked-up-website.jpg",
-    techonologies: ['React',"Boostrap","React Router","Sass"],
+    techonologies: ['React',"Bootstrap","React Router","Sass"],
     extra: "This project got animated by WOW and Animate.css which help add the amazing animations and reveal animations when scrolling. Also, the react-router-hash-link package helps to add local scrolling for internal anchor."
   },
   {
