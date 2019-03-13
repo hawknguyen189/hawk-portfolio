@@ -22,8 +22,7 @@ class WelcomeText extends React.Component {
             <h3>Welcome to my Workshop</h3>
             <h5>
               <br/>
-              If you do not get what you're looking here, please come back after few days. I do regularly update my new projects
-              every 3-4 days.
+              If you do not get what you're looking for here, please come back after few days. My pet projects will be updated regularly.
             </h5>
             <Link to="/#connectMe" className="w-50">
               <button className="btn btn-info bg-transparent w-100">Get in touch</button>
