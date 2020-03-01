@@ -19,7 +19,7 @@ const ProjectCollection1 = [
     websiteName: "Pom Beard",
     websiteImage: "store-template",
     websiteContent:
-      "This is a store template for Pom Beard store. Everything is built from the scratchs. The design is credit to Organie theme.",
+      "This is a store template for Pom Beard store. Everything is built from the scratch. The design is credit to Organie theme.",
     websiteIntro:
       "I build this store template upon the request from pom beard. The images and contents will be replaced by their materials soon",
     websiteLink: "https://hawknguyen189.github.io/pom-beard/",
