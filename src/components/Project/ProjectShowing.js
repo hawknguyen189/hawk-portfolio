@@ -1,11 +1,13 @@
 import React from "react";
-import {PortfolioWebsite} from "./ProjectPetComponent/PortfolioWebsite";
+import { PortfolioWebsite } from "./ProjectPetComponent/PortfolioWebsite";
 import { StoreTemplate } from "./ProjectPetComponent/StoreTemplate";
-import {LoremIpsum} from "./ProjectPetComponent/LoremIpsum";
-import {Route, Switch} from "react-router-dom";
+import CekicoStore from "./ProjectPetComponent/CekicoStore";
+import RarityAdventure from "./ProjectPetComponent/RarityAdventure";
+import TradingBot from "./ProjectPetComponent/TradingBot";
+import { Route, Switch } from "react-router-dom";
 
-export class ProjectShowing extends React.Component{
-  render (){
+export class ProjectShowing extends React.Component {
+  render() {
     return (
       <div id="projectShowing">
         <Switch>
@@ -13,12 +15,13 @@ export class ProjectShowing extends React.Component{
             path="/projectpets/portfolioWebsite"
             component={PortfolioWebsite}
           />
+          <Route path="/projectpets/storeTemplate" component={StoreTemplate} />
+          <Route path="/projectpets/cekicoStore" component={CekicoStore} />
           <Route
-            path="/projectpets/storeTemplate"
-            component={StoreTemplate}
+            path="/projectpets/rarityAdventure"
+            component={RarityAdventure}
           />
-          <Route path="/projectpets/LoremIpsum2" component={LoremIpsum} />
-          <Route path="/projectpets/LoremIpsum3" component={LoremIpsum} />
+          <Route path="/projectpets/binanceTradingBot" component={TradingBot} />
         </Switch>
       </div>
     );

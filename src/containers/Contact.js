@@ -92,7 +92,8 @@ export class Contact extends React.Component {
                 </p>
               </div>
               <div className="col-sm text-center mt-3">
-                &#169; Hawk Nguyen 2019
+                Made with <i className="fas fa-fire-alt"></i> by Hoc Nguyen -
+                Copyright © 2019 Hoc Nguyen - All Rights Reserved.
               </div>
             </div>
           </div>
