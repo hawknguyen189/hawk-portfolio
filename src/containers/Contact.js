@@ -75,13 +75,6 @@ export class Contact extends React.Component {
                   >
                     <i className="fab fa-facebook-f mx-1 mx-sm-2 text-white"></i>
                   </a>
-                  <a
-                    href="https://t.me/Hawk189"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <i className="fab fa-telegram-plane mx-1 mx-sm-2 text-white"></i>
-                  </a>
                 </div>
               </div>
               <div className="col-sm-4">

@@ -71,17 +71,6 @@ export class ConnectMe extends React.Component {
                     style={style}
                   ></i>
                 </a>
-                <a
-                  href="https://t.me/Hawk189"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <i
-                    className="fab fa-telegram-plane fa-2x dominating-color border-width-small  border rounded
-                    border-dominating-color mx-1 mx-sm-2"
-                    style={style}
-                  ></i>
-                </a>
               </div>
             </div>
           </div>
