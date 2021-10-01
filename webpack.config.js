@@ -1,7 +1,8 @@
 const path = require("path");
 const HtmlWebPackPlugin = require("html-webpack-plugin");
 const CleanWebpackPlugin = require("clean-webpack-plugin");
-
+const srcDir = path.resolve(__dirname, "src");
+console.log(srcDir);
 module.exports = {
   entry: "./src/index.js",
   mode: "production",
@@ -45,12 +46,12 @@ module.exports = {
               esModule: false,
             },
           },
-          // {
-          //   loader: "file-loader",
-          //   options: {
-          //     esModule: false,
-          //   },
-          // },
+          {
+            loader: "file-loader",
+            options: {
+              esModule: false,
+            },
+          },
         ],
       },
     ],

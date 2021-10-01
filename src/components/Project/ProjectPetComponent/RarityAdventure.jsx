@@ -7,15 +7,15 @@ const RarityAdventure = () => {
   return (
     <div id="comingSoon">
       <ProjectPet
-        websiteIntro={ProjectPetData[0]["websiteIntro"]}
-        websiteImage={ProjectPetData[0]["websiteImage"]}
-        websiteLink={ProjectPetData[0]["websiteLink"]}
-        websiteGit={ProjectPetData[0]["websiteGit"]}
+        websiteIntro={ProjectPetData[2]["websiteIntro"]}
+        websiteImage={ProjectPetData[2]["websiteImage"]}
+        websiteLink={ProjectPetData[2]["websiteLink"]}
+        websiteGit={ProjectPetData[2]["websiteGit"]}
       />
       <TechnologyUsed
-        responsiveImage={ProjectPetData[0]["responsiveImage"]}
-        techonologies={ProjectPetData[0]["techonologies"]}
-        extra={ProjectPetData[0]["extra"]}
+        responsiveImage={ProjectPetData[2]["responsiveImage"]}
+        techonologies={ProjectPetData[2]["techonologies"]}
+        extra={ProjectPetData[2]["extra"]}
       />
     </div>
   );

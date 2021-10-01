@@ -14,7 +14,7 @@ class App extends Component {
       <Router basename={process.env.PUBLIC_URL}>
         {/*<ScrollToTop>*/}
         <div className="App">
-          {console.log("Today is a great day to be amzing")}
+          {console.log("Today is another amazing day")}
           <Route path="/" component={NavBar} />
           <Route path="/" component={MainBackground} />
           <Switch>

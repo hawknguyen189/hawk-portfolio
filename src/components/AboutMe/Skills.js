@@ -1,5 +1,4 @@
 import React from "react";
-import graphql from "../../images/graphql.png";
 import "./Skills.css";
 
 export class Skills extends React.Component {
