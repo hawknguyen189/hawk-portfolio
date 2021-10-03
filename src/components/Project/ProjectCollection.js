@@ -8,7 +8,7 @@ const ProjectCollection1 = [
     websiteIntro:
       "I, like many other people,enjoy spending my time on swimming in the Ocean of Coding Knowledge. Im looking forward to becoming an experienced full-stack web developer in the next 3 years.",
     websiteLink: "https://www.findhawk.me/",
-    websiteGit: "https://github.com/HawkNguyen/hawk-portfolio",
+    websiteGit: "https://github.com/hawknguyen189/hawk-portfolio",
     responsiveImage: "mocked-up-website.jpg",
     techonologies: ["React", "Bootstrap", "React Router", "Sass"],
     extra:
@@ -75,7 +75,7 @@ const ProjectCollection2 = [
     websiteIntro: `To deal with Shopify's expensive addon extra fees, I help develop new features like Wholesale page & prices, extra charge on laser carving, handle form and email management.
     As per request, I couldn't share the source code for this project.`,
     websiteLink: "https://treobamboo.com/",
-    websiteGit: "https://github.com/HawkNguyen/",
+    websiteGit: "https://github.com/hawknguyen189",
     responsiveImage: "mockup-treo.png",
     techonologies: ["Liquid", "Shopify"],
     extra: `It's a great experience to deal with Shopify and their Liquid programming language. It takes me few days
@@ -92,7 +92,7 @@ const ProjectCollection2 = [
     websiteIntro: `It was fun to build something that could help supply the chips & controllers to the Concordia students.  
       As per special request from the client, I couldn't update the github for this project.`,
     websiteLink: "https://react-graphql-dashboard.vercel.app/store",
-    websiteGit: "https://github.com/HawkNguyen/",
+    websiteGit: "https://github.com/hawknguyen189",
     responsiveImage: "mockup-cekico.png",
     techonologies: [
       "NextJS",
